@@ -5,20 +5,6 @@ import os
 from utils import calculate_all_shap_importance
 from mnist import Net, SmallNet, MLP, load_model, GaborNet
 
-from compas import CompasFairMLModel
-from CompasDataset import CompasFairMLDataset
-
-from diabetes import MLPCurrent as MLPDiabetes
-from diabetes import MLPPima, MLPRegression
-from DiabetesDataset import DiabetesDatasetLastVisit, PimaDataset, DiabetesRegressionDataset
-from CancerDataset import BreastCancerDataset
-from GeneDatasets import KingdomDataset, DNADataset
-
-from gene import MLP as MLPGene
-
-from explanation_ensemble import get_models, CifarNet
-from explanation_ensemble_regression import get_models as get_models_regression
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
