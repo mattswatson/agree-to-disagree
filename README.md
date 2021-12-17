@@ -25,6 +25,7 @@ comments and the use of `python script_name.py -h`.
 - `sensitivity.py` - Calculates the explanation sensitivity of pre-calculated SHAP/IG values
 - `train_lr.py` - Trains a binary Logistic Regression classifier on two sets of SHAP/IG values from models
 - `train_svm_on_mnist.py` - Train an SVM on the MNIST data
+- `model_wd.py` - Calculate the Wasserstein distance between all pairs of models in a directory
 
 As an example of how to use these scripts, here is how to train a ResNet18 model on MNIST:
 
