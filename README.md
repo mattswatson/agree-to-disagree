@@ -1,9 +1,9 @@
 # Agree to Disagree: When Deep Learning Models with Identical Architectures Produce Distinct Explanations
 
-This is the support repository for our paper Agree to Disagree: When Deep Learning Models with Identical Architectures 
-Produce Distinct Explanations, M Watson, B Hasan, N Al Moubayed (2021) presented at WACV 2022. Code to re-produce all
-experiments outlined in the paper are included, with the code split up into that for MNIST (found in the `mnist`
-folder) and MIMIC-CXR (found in the `mimic-cxr` folder).
+This is the support repository for our paper [Agree to Disagree: When Deep Learning Models with Identical Architectures 
+Produce Distinct Explanations](https://openaccess.thecvf.com/content/WACV2022/html/Watson_Agree_To_Disagree_When_Deep_Learning_Models_With_Identical_Architectures_WACV_2022_paper.html), M Watson, B Hasan, N Al Moubayed (2021) presented at WACV 2022. This paper won the WACV 2022 Best Student Paper Award.
+
+Code to re-produce all experiments outlined in the paper are included, with the code split up into that for MNIST (found in the `mnist`folder) and MIMIC-CXR (found in the `mimic-cxr` folder).
 
 Note that all model training and SHAP/IG calculation code has CLI options for setting the random seed used. To accurately
 reproduce our experiments, one must set the random seed to those reported in the paper. As discussed in the paper, however,
